@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin_post.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Create Post</title>
+    <script src="https://kit.fontawesome.com/4811032236.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+
+
+    <!-- Code starts here -->
+
+    <div class="main">
+
+        <div class="certify_admin_form">
+    
+            <div class="post_block">
+    
+        <form method=get action="pending_post.php">
+          
+            <div class="create_post_title">
+                Create Post
+            </div>
+    
+    
+    
+            <div class="post_title">
+                <input type="text" rows="2" id="name" name="post_title" required>
+                <label>Title</label>
+<!--                 
+                <label for="name"><i class="fa-brands fa-battle-net"></i> Post Title</label>
+             -->
+            
+            </div>
+    
+    
+    
+            <div class="certify_admin">
+                <input type="textarea" id="des" rows="8" name="post_description" required></input>
+                <label>Description</label>
+<!--                 
+                <label for="des"><i class="fa-sharp fa-solid fa-comment"></i> Descriptions</label>
+                 -->
+    
+            </div>
+            
+            <div class="image_block">
+                <input type="text" name="photo"/>
+<!-- 
+                accept="image/png, image/gif, image/jpeg, image/jpg, video/mp4" />
+             -->
+            </div>
+        
+    
+           
+            <button type="submit">POST</button>
+            <!-- <button type="submit">POST <i class="fa-sharp fa-solid fa-paper-plane"></i></button> -->
+
+        
+    
+          
+        </form>
+    </div>
+    
+    </div>
+    
+    <!-- Code ends here -->
+
+
+<!-- 
+
+
+
+
+
+
+
+<!-- 
+    <!-- Menubar Starts from here-->
+
+<div class="menubar">
+    <ul>
+        <li><a href="../index.html"><i class="fa fa-home"></i>Home</a> </li>
+        <li><a href="../contest/contest.html">Contest</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li class="hover-me"> <a href="../contest/join_contest.html">Join a contest</a> <i class="fa fa-angle-right"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li class="hover-me-3"> <a href="../contest/beginner.html">Beginner Level</a><i class=" fa fa-angle-right"></i>
+                                <div class="sub-menu-3">
+                                    <ul>
+                                        <li> <a href="">C</a></li>
+                                        <li> <a href="">Javascript</a></li>
+                                        <li> <a href="">C++</a></li>
+                                        <li> <a href="">Python</a></li>
+                                        <li> <a href="">Java</a></li>
+                                        <li> <a href="">C#</a></li>
+                                        <li> <a href="">HTML</a></li>
+                                        <li> <a href="">CSS</a></li>
+                                        <li> <a href="">PHP</a></li>
+        
+                                    </ul>
+                                </div>
+                            </li>
+
+
+                            <li class="hover-me-3"> <a href="../contest/beginner.html">Moderate Level</a><i class=" fa fa-angle-right"></i>
+                                <div class="sub-menu-3">
+                                    <ul>
+                                        <li> <a href="">C</a></li>
+                                        <li> <a href="">Javascript</a></li>
+                                        <li> <a href="">C++</a></li>
+                                        <li> <a href="">Python</a></li>
+                                        <li> <a href="">Java</a></li>
+                                        <li> <a href="">C#</a></li>
+                                        <li> <a href="">HTML</a></li>
+                                        <li> <a href="">CSS</a></li>
+                                        <li> <a href="">PHP</a></li>
+        
+                                    </ul>
+                                </div>
+                            </li>
+
+
+
+                            <li class="hover-me-3"> <a href="../contest/beginner.html">Pro Level</a><i class=" fa fa-angle-right"></i>
+                                <div class="sub-menu-3">
+                                    <ul>
+                                        <li> <a href="">C</a></li>
+                                        <li> <a href="">Javascript</a></li>
+                                        <li> <a href="">C++</a></li>
+                                        <li> <a href="">Python</a></li>
+                                        <li> <a href="">Java</a></li>
+                                        <li> <a href="">C#</a></li>
+                                        <li> <a href="">HTML</a></li>
+                                        <li> <a href="">CSS</a></li>
+                                        <li> <a href="">PHP</a></li>
+        
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                    </li>
+
+
+
+
+                    <li class="hover-me"> <a href="../contest/practice.html">Practice Coding</a><i class=" fa fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li> <a href="">C</a></li>
+                                <li> <a href="../compiler/compiler_python.html">Javascript</a></li>
+                                <li> <a href="">C++</a></li>
+                                <li> <a href="">Python</a></li>
+                                <li> <a href="">Java</a></li>
+                                <li> <a href="">C#</a></li>
+                                <li> <a href="">HTML</a></li>
+                                <li> <a href="">CSS</a></li>
+                                <li> <a href="">PHP</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li> <a href="previous/previous.html">Previous contest</a></li>
+
+                   
+                </ul>
+            </div>
+        </li>
+        <li><a href="../certify/certify.html">Certify</a></li>
+        <li><a href="../resource/resource.html">Resource</a></li>
+        <li class="active"><a href="#">Forum</a></li>
+        <li><a href="#">About Us</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li> <a href="">Mission</a></li>
+                    <li> <a href="">Vision</a></li>
+                    <li> <a href="">Team</a></li>
+                   
+                </ul>
+            </div>
+    </ul>
+</div>
+
+    <!-- Menubar ends here -->
+
+
+
+ --> -->
+
+
+
+
+
+
+</div>
+</body>
+</html>
